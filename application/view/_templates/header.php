@@ -11,7 +11,6 @@
     <!-- See more here: http://stackoverflow.com/q/2105327/1114320 -->
 
     <!-- CSS -->
-    <link href="<?php echo URL; ?>css/style.css" rel="stylesheet">
     <link href="<?php echo URL; ?>css/semantic.css" rel="stylesheet">
 </head>
 <body>
@@ -19,9 +18,13 @@
     <!--<div class="logo"></div>-->
 
     <!-- navigation -->
-    <div class="navigation">
-        <a href="<?php echo URL; ?>">Steve Jobs</a>
-        <a href="<?php echo URL; ?>home/bio">Biography</a>
-        <a href="<?php echo URL; ?>home/pics">Pictures</a>
-        <a href="<?php echo URL; ?>books">Books</a>
-    </div>
+
+
+
+<div class="ui inverted menu">
+  <a class="item" href="<?php echo URL; ?>">Steve Jobs</a>
+  <a class="item" href="<?php echo URL; ?>home/bio">Biography</a>
+  <a class="item" href="<?php echo URL; ?>home/pics">Pictures</a>
+  <a class="item" href="<?php echo URL; ?>books">Books</a>
+  </div>
+</div>
